@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZA2/PM3hM0WH8dE9fdbvjc8aKbKgo4GddBpxX1e9ajspSUzehpdXwrOeA1yXX71cCRY3FfWh6VO0pnGZznaf4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\notma\\source\\repos\\Dom\\Dom\\Dom.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\notma\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
