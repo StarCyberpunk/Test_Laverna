@@ -10,12 +10,12 @@
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black"/>
-                <GradientStop Color="#99887B4C" Offset="1"/>
+                <GradientStop Color="#99CC3323" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
         <TextBox x:Name="InputCity" HorizontalAlignment="Left" Margin="106,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139" TextChanged="TextBox_TextChanged"/>
-        <TextBlock x:Name="Result" HorizontalAlignment="Left" Height="241" Margin="400,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" IsEnabled="False" Foreground="#FFFFF4F4" Background="#FF8A836B"/>
-        <Button x:Name="button_search" Content="Search" HorizontalAlignment="Left" Margin="250,87,0,0" VerticalAlignment="Top" Click="button_search_Click"/>
+        <TextBlock x:Name="Result" HorizontalAlignment="Left" Height="241" Margin="400,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" IsEnabled="False" Foreground="#FFFFF4F4" Background="#FFC8574C"/>
+        <Button x:Name="button_search" Content="Поиск" HorizontalAlignment="Left" Margin="250,87,0,0" VerticalAlignment="Top" Click="button_search_Click"/>
         <Label x:Name="City_Label" Content="Введите город на английском языке" HorizontalAlignment="Left" Margin="92,52,0,0" VerticalAlignment="Top" IsEnabled="False" Height="35" Width="220" Foreground="White"/>
         <Label x:Name="Labal_res" Content="Результат" HorizontalAlignment="Left" Margin="400,52,0,0" VerticalAlignment="Top" Foreground="#FFFBFBFB"/>
         <Button x:Name="button_del" Content="Удалить" HorizontalAlignment="Left" Margin="294,87,0,0" VerticalAlignment="Top" Height="22" Width="53" Click="button_del_Click"/>

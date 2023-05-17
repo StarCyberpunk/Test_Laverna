@@ -24,7 +24,9 @@ namespace Dom
         {
             InitializeComponent();
         }
-        
+        /// <summary>
+        /// Кнопка поиска
+        /// </summary>
         private async void button_search_Click(object sender, RoutedEventArgs e)
         {
             string city = InputCity.Text;

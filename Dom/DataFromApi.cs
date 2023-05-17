@@ -12,8 +12,12 @@ namespace Dom
 {
     public class DataFromApi
     {
-        string ApiKey = "b79387e597b3a5929f903a1423bdd8c2";
-
+        string ApiKey = "{YOUR_API_KEY}";
+        /// <summary>
+        /// Получение данных из API
+        /// </summary>
+        /// <param name="city"> Название города из формы на латинице</param>
+        /// <returns>Объект с температурой,описанием и скоростью ветра</returns>
         public async Task<RootViewModel> GetDataAboutCity(string city)
         {
             
